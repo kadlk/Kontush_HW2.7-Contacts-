@@ -38,9 +38,5 @@ class PersonsViewController: UITableViewController {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         let person = adressBook[indexPath.row]
         personDetailsVC.person = person
-        
-        guard let sectionPersonVC = segue.destination as? SectionPersonDetailsViewController
-        else { return }
-        sectionPersonVC.adressBook = adressBook
     }
 }

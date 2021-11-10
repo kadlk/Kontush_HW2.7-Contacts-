@@ -101,21 +101,6 @@
             </objects>
             <point key="canvasLocation" x="1268" y="70"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="rfA-oE-HRi">
-            <objects>
-                <viewController id="98j-Ri-kfU" customClass="ViewController" customModule="Kontush_HW2_7_Contacts_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kYD-lS-wg8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="WgA-ku-QAJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lKN-be-eYv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2920" y="1654"/>
-        </scene>
         <!--Section Person Details View Controller-->
         <scene sceneID="v6j-7W-Fm9">
             <objects>

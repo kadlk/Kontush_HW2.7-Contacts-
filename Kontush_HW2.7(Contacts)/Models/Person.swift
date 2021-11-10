@@ -25,13 +25,6 @@ struct Person{
 }
 
 extension Person{
-    static func getPerson() -> Person{
-        let data: DataManager = DataManager()
-        let person: Person = Person(name: data.getName(), surname: data.getSurname(),
-                                    email: data.getEmail(), phone: data.getPhone())
-        return person
-    }
-    
     static func getPersonsFixed(personCount: Int) -> [Person]{
         let data: DataManager = DataManager()
         
@@ -43,22 +36,6 @@ extension Person{
         }
         return persons
     }
-    
-//    static func getPersons() -> [Person]{
-//        let data: DataManager = DataManager()
-//        var persons: [Person] = []
-//
-//        let person: Person = Person(name: data.getName(), surname: data.getSurname(),
-//                                    email: data.getEmail(), phone: data.getPhone())
-//
-//
-//        if persons.contains("S"){
-//
-//        }
-//
-//        persons.append(person)
-//        return persons
-//    }
 }
 
 

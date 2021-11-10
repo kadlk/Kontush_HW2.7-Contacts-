@@ -8,7 +8,7 @@
 import UIKit
 
 class TabBarController: UITabBarController {
-
+    
     override func viewDidLoad() {
         sendData()
         super.viewDidLoad()
@@ -24,11 +24,11 @@ extension TabBarController{
             if let personVC = controller as? PersonsViewController {
                 personVC.adressBook = adressBook
             }
-            if let sectionPersonVC = controller as? SectionPersonDetailsViewController{
+            if let sectionPersonVC = controller as? SectionPersonViewController{
                 sectionPersonVC.adressBook = adressBook
             }
-            }
         }
+    }
 }
 
 

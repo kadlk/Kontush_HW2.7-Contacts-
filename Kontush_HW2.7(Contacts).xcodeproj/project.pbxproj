@@ -66,13 +66,12 @@
 		7884C7EB273BC04C00B32231 /* Kontush_HW2.7(Contacts) */ = {
 			isa = PBXGroup;
 			children = (
+				7884C7FA273BC04E00B32231 /* Info.plist */,
+				7884C7F5273BC04E00B32231 /* Assets.xcassets */,
 				7884C814273C655B00B32231 /* Views */,
 				7884C815273C658300B32231 /* Delegates */,
 				7884C802273BCB9300B32231 /* Models */,
-				7884C7F5273BC04E00B32231 /* Assets.xcassets */,
-				7884C7F7273BC04E00B32231 /* LaunchScreen.storyboard */,
-				7884C7F2273BC04C00B32231 /* Main.storyboard */,
-				7884C7FA273BC04E00B32231 /* Info.plist */,
+				7884C816273C678500B32231 /* Storyboards */,
 				7884C813273C653F00B32231 /* Managers */,
 			);
 			path = "Kontush_HW2.7(Contacts)";
@@ -112,6 +111,15 @@
 				7884C7EE273BC04C00B32231 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7884C816273C678500B32231 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7884C7F7273BC04E00B32231 /* LaunchScreen.storyboard */,
+				7884C7F2273BC04C00B32231 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
